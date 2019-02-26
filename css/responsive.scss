@@ -1,0 +1,165 @@
+// colors
+$whitecolor: #ffffff;
+$silvercolor: #545353;
+$bluecolor: #0271CC;
+$greencolor: #11998E;
+$greenwhite: #38EF7D;
+$orangecolor: #f1ba58;
+$whitesilvercolor: #AFB0AF;
+
+@media(max-width:1300px){
+	.events .upcomingevents .upbg{
+		margin-right: 0;
+	}
+}
+@media(max-width:1200px){
+	.footer ul li a{
+		font-size: 12px;
+	}
+}
+@media(max-width:992px){
+	.bghero,.whitebg,.videoContainer{
+		display: none;
+	}
+	.hero{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#11998e+0,26c785+100 */
+		background: rgb(17,153,142); /* Old browsers */
+		background: -moz-linear-gradient(-45deg, rgba(17,153,142,1) 0%, rgba(38,199,133,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-45deg, rgba(17,153,142,1) 0%,rgba(38,199,133,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(135deg, rgba(17,153,142,1) 0%,rgba(38,199,133,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11998e', endColorstr='#26c785',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+	.navbar-default{
+		position: fixed;
+		background: $whitecolor;
+		right: 0;
+		left: 0;
+		top: 0;
+		min-height: 70px;
+		border-radius: 0;
+	}
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+		position: fixed;
+		z-index: 999;
+		left: 0;
+		margin-left: 15px;
+	}
+	.navbar-default .navbar-nav > li > a{
+		color: $bluecolor;
+	}
+	.hero h1{
+		text-align: center;
+		padding-top: 120px;
+		color: $whitecolor;
+	}
+	.hero .bluetransline{
+		margin: auto;
+		background: $whitecolor;
+		width: 100%;
+		max-width: 330px;
+	}
+	.hero p{
+		text-align: center;
+		padding-top: 15px;
+		color: $whitecolor;
+	}
+	.hero form{
+		margin-top: 30px;
+	}
+	.hero{
+		padding-bottom: 70px;
+	}
+	.events .pastevents h1, .events .upcomingevents h1{
+		text-align: center;
+	}
+	.events .pastevents .transline, .events .upcomingevents .transline{
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		background: $whitecolor;
+	}
+	.events .pastevents .paseventdiv, .events .upcomingevents .upeventdiv{
+		text-align: center;
+	}
+	.events .upcomingevents, .events .pastevents{
+		padding: 0;
+	}
+	.events .upcomingevents h1{
+		margin-top: 50px;
+	}
+	.events .pastevents .pasbg, .events .upcomingevents .upbg{
+		display: none;
+	}
+	.footer p{
+		text-align: center;
+	}
+	.footer ul li{
+		display: block;
+		text-align: center;
+				margin-top: 10px;
+	}
+	.footer ul li a{
+		margin: 0;
+	}
+}
+@media(max-width:768px){
+	.features a .hover{
+		margin-top: 0;
+	}
+	.events .pastevents .transline, .events .upcomingevents .transline{
+		max-width: 250px;
+	}
+	.events .pastevents .paseventdiv .event h3, .events .pastevents .paseventdiv .event h4, .events .pastevents .paseventdiv .event .crta, .events .upcomingevents .upeventdiv .event h3, .events .upcomingevents .upeventdiv .event h4, .events .upcomingevents .upeventdiv .event .crta{
+		display: block;
+	}
+	.events .pastevents .paseventdiv .event .crta, .events .upcomingevents .upeventdiv .event .crta{
+		display: none;
+	}
+	.events .pastevents .paseventdiv .event h4, .events .upcomingevents .upeventdiv .event h4{
+		margin: 0;
+	}
+	.events .pastevents .paseventdiv .event h3, .events .upcomingevents .upeventdiv .event h3{
+		padding: 0;
+		text-align: center;
+	}
+	.events .upcomingevents .upeventdiv .event h3{
+		margin-top: -30px;
+		padding-bottom: 20px;
+	}
+	.events .upcomingevents .upeventdiv .event h4{
+		margin-bottom: -35px;
+		padding-top: 20px;
+	}
+	.gamesample .item:nth-child(odd) .col-sm-6:nth-child(odd) .video, .gamesample .item:nth-child(even) .col-sm-6:nth-child(odd) .video, .highlightvideos .item:nth-child(odd) .col-sm-6:nth-child(odd) .video, .highlightvideos .item:nth-child(even) .col-sm-6:nth-child(odd) .video{
+	max-width: 300px !important;
+    margin: auto !important;
+    }
+    .highlightvideos{
+    	padding-bottom: 0;
+    }
+    .gamesample h1{
+    	margin-top: 50px;
+    }
+    .highlightvideos .h1line, .gamesample .h1line{
+    	margin-bottom: 30px;
+    }
+}
+@media(max-width:400px){
+	.sportsslide .col-xs-1{
+		a{
+			display: none;
+			margin-top: 10px;
+		}
+	}
+	.highlightvideos, .gamesample{
+		.col-xs-10{
+			width: 100% !important;
+		}
+	
+	}
+	.highlightvideos .col-xs-1, .gamesample .col-xs-1{
+		display: none;
+	}
+}
+
+

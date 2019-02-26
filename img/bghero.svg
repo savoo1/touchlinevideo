@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="567px" height="577px" viewBox="0 0 567 577" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Polygon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="35.6687101%" y1="18.0446897%" x2="12.3854717%" y2="167.037371%" id="linearGradient-1">
+            <stop stop-color="#11998E" offset="0%"></stop>
+            <stop stop-color="#38EF7D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-457.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <g id="hero" transform="translate(41.000000, -764.000000)">
+                <path d="M1016.78458,252.951001 L1533.10371,602.167158 C1561.28924,621.230643 1573.10918,656.880236 1561.89614,689.006675 L1368.09256,1244.27235 C1357.02886,1275.97089 1326.2466,1296.45496 1292.73452,1294.41938 L699.58496,1258.39055 C672.002965,1256.71518 647.576513,1240.00886 636.013846,1214.91149 L395.258799,692.340153 C379.89154,658.984719 390.938336,619.407752 421.35878,598.832666 L932.747836,252.951001 C958.129839,235.783701 991.402573,235.783701 1016.78458,252.951001 Z" id="Polygon" transform="translate(977.230558, 767.316986) rotate(-34.000000) translate(-977.230558, -767.316986) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

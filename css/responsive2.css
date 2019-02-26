@@ -1,0 +1,93 @@
+@media (max-width: 1200px) {
+  .footer ul li a {
+    font-size: 12px; } }
+@media (max-width: 992px) {
+  .contacthero h1, .contacthero p {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .form .info .inf p {
+    display: block;
+    text-align: center;
+    margin: 0; }
+
+  .form .info .inf img {
+    display: block;
+    margin: auto; }
+
+  .findplayerhero select {
+    margin-bottom: 15px; }
+
+  .footer p {
+    text-align: center; }
+
+  .footer ul li {
+    display: block;
+    text-align: center;
+    margin-top: 10px; }
+
+  .footer ul li a {
+    margin: 0; }
+
+  .loginpage .frame .centerdiv .secel .col-md-6 {
+    text-align: center !important;
+    margin-bottom: 15px !important; }
+
+  .gamesample .item:nth-child(odd) .col-sm-6:nth-child(odd) .video, .gamesample .item:nth-child(even) .col-sm-6:nth-child(odd) .video, .highlightvideos .item:nth-child(odd) .col-sm-6:nth-child(odd) .video, .highlightvideos .item:nth-child(even) .col-sm-6:nth-child(odd) .video {
+    max-width: 300px !important;
+    margin: auto !important; }
+
+  .highlightvideos {
+    padding-bottom: 0; }
+
+  .gamesample h1 {
+    margin-top: 50px; }
+
+  .highlightvideos .h1line, .gamesample .h1line {
+    margin-bottom: 30px; } }
+@media (max-width: 768px) {
+  .fplaters .player {
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 30px; }
+
+  .fplaters a:hover .hover {
+    max-width: 400px;
+    margin: auto;
+    left: 0;
+    right: 0; }
+
+  .loginpage .frame .centerdiv form {
+    padding: 15px;
+    border-radius: 0; }
+
+  .form .forminfotog {
+    margin-top: -100px; }
+
+  .form .info h2 {
+    text-align: center; }
+
+  .form .info .socmed {
+    display: none; }
+
+  .form {
+    padding-bottom: 100px; } }
+@media (max-height: 700px) {
+  .loginpage .frame {
+    height: 600px; } }
+@media (max-width: 400px) {
+  .highlightvideos .col-xs-10, .gamesample .col-xs-10 {
+    width: 100% !important; }
+
+  .highlightvideos .col-xs-1, .gamesample .col-xs-1 {
+    display: none; } }
+@media (min-width: 772px) {
+  .forminfotog {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap; } }
+
+/*# sourceMappingURL=responsive2.css.map */
